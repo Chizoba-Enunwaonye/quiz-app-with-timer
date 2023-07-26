@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="start">Start Quiz</div>
+   
+    <div id="guide">
+        <h2> Quiz Guide </h2>
+        <h4>1. You have only 20 seconds to complete one question. </h4>
+        <h4>2. Once you click on one answer you cannot change it. </h4>
+        <h4>3. You will get points based on the correct answers. </h4>
+        <h4>4. You cannot exit the quiz once you are playing. </h4>
+     <div id="button">
+        <button id="exit">Exit</button>
+        <button id="continue">Continue</button>
+     </div>
+    </div> 
+
+    <div id="quiz">
+        <div id="quiz-header">
+            <h5> Amazing Quiz App</h5>   
+            <div id="timer">
+                <h6> Time Left</h6>
+                <h6 id="time">00</h6>
+            </div>
+        </div>
+       
+        <div id="question">
+            <h2 id="questionNo"></h2>
+            <h2 id="questionText"></h2>
+        </div>
+    
+        <div id="optionList">
+            <h4 class="choice_que" id="option1"></h4>
+            <h4 class="choice_que" id="option2"></h4>
+            <h4 class="choice_que" id="option3"></h4>
+            <h4 class="choice_que" id="option4"></h4>
+        </div>
+    
+        <div id="answerSection">
+            <h3 id="total_correct">3 out of 8 questions.</h3>
+            <h3 id="next_question">Next</h3>
+        </div>
+        </div>
+        <div id="result">
+            <h6> You have completed the Quiz</h6>
+            <h6 id="points"></h6>
+            <button id="quit">Quit Quiz</button>
+            <button id="startAgain">Start Again</button>
+        </div>
+    </div>
+
+    <script src="./question.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

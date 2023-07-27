@@ -105,10 +105,7 @@ choice_que.forEach((choices,choiceNo) =>{
         correct++;
         
       }
-      else
-     {
-        correct += 0;
-     }
+    
  
       //stop counter
 
@@ -128,7 +125,7 @@ next_question.addEventListener("click" , () => {
     //if index is less than HCQS.length
 
 
-     if(index !== HCQS.length - 1) {
+     if(index !== HCQS.length -1) {
         index++;
         choice_que.forEach(removeActive => {
             removeActive.classList.remove("active");   

@@ -5,7 +5,7 @@ let HCQS = [{
     choice2: "5",
     choice3: "6",
     choice4: "8",
-    answer: 4
+    answer: 3
 }, 
     {
     question: "which of the these planets were named after Greek and Roman gods?",
